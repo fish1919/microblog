@@ -9,7 +9,7 @@ module.exports = function(app) {
       if (err) {
         posts = [];
       }
-      console.log(posts);
+      //console.log(posts);
       res.render('index', {
         title: '首頁',
         posts: posts,
